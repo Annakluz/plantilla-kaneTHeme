@@ -36,3 +36,117 @@
     padding: 12px;
     float:left;
 }
+.paleta-color{
+	background-color: red;text-align: center;
+	&__titulo{
+		@include fuente($tamano-titulo,$blanco);
+
+	}
+	&__cuadro-color{
+		height: 22vh;
+
+		&--celeste{
+			background-color: $celeste;
+			height: $paleta-alto-cuadro;
+		}
+		&--azul-claro{
+			background-color: $azul-claro;
+			height: $paleta-alto-cuadro;
+		}
+		&--gris-calido{
+			background-color: $gris-calido;
+			height: $paleta-alto-cuadro;
+		}
+		&--naranja{
+			background-color: $naranja;
+			height: $paleta-alto-cuadro;
+		}
+		&--naranja-fuerte{
+			background-color: $naranja-fuerte;
+			height: $paleta-alto-cuadro;
+		}
+		&--rosa{
+			background-color: $rosa;
+			height: $paleta-alto-cuadro;
+		}
+		&--uva{
+			background-color: $uva;
+			height: $paleta-alto-cuadro;
+		}
+		&--gris{
+			background-color: $gris;
+			height: $paleta-alto-cuadro;
+		}
+		&--gris-claro{
+			background-color: $gris-claro;
+			height: $paleta-alto-cuadro;
+		}
+		&--amarillo{
+			background-color: $amarillo;
+			height: $paleta-alto-cuadro;
+		}
+		&--rojo-fuerte{
+			background-color: $rojo-fuerte;
+			height: $paleta-alto-cuadro;
+		}
+		&--mostaza{
+			background-color: $mostaza;
+				height: $paleta-alto-cuadro;
+		}
+		&--hueso{
+			background-color: $hueso;
+			height: $paleta-alto-cuadro;
+		}
+		&--menta{
+			background-color: $menta;
+			height: $paleta-alto-cuadro;
+		}
+		&--cielo{
+			background-color: $cielo;
+			height: $paleta-alto-cuadro;
+		}
+		&--gris-verde{
+			background-color:$gris-verde;
+			height: $paleta-alto-cuadro;
+		}
+		&--durazno-claro{
+			background-color: $durazno-claro;
+			height: $paleta-alto-cuadro;
+		}
+		&--durazno{
+			background-color: $durazno;
+			height: $paleta-alto-cuadro;
+		}
+		&--salmon{
+			background-color: $salmon;
+			height: $paleta-alto-cuadro;
+		}
+		&--vino{
+			background-color: $vino;
+			height: $paleta-alto-cuadro;
+		}
+		&--amarillo-limon{
+			background-color: $amarillo-limon;
+			height: $paleta-alto-cuadro;
+		}
+		&--azul-gris{
+			background-color: $azul-gris;
+			height: $paleta-alto-cuadro;
+		}
+		&--azul{
+			background-color: $azul;
+			height: $paleta-alto-cuadro;
+		}
+		&--rojo-claro{
+			background-color: $rojo-claro;
+			height: $paleta-alto-cuadro;
+		}
+		&--rojo{
+			background-color: $rojo;
+			height: $paleta-alto-cuadro;
+		}
+
+
+
+	}
+}
