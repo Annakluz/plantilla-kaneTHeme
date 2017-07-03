@@ -80,7 +80,7 @@
 .container {
   width: 100%;
   max-width: 1200px;
-  margin: 0px, auto; }
+  margin: 0px auto; }
 
 .templateRow, .row:before, .row:after {
   content: " ";
@@ -141,14 +141,15 @@
     width: 100%; }
 
 /*   final estilos DIANA   */
-
-/*LUZ*estilos */
+/*LUZ 1era seccion*/
 .paleta-color {
-  background-color: red;
-  text-align: center; }
+  width: 100%;
+  background-color: #FFF;
+  text-align: center;
+  padding: 4rem 0 0 0; }
   .paleta-color__titulo {
     font-size: 2.5rem;
-    color: #FFF; }
+    color: #000; }
   .paleta-color__cuadro-color {
     height: 22vh; }
     .paleta-color__cuadro-color--celeste {
@@ -226,6 +227,7 @@
     .paleta-color__cuadro-color--rojo {
       background-color: #DC403B;
       height: 20vh; }
-/* FINAL LUZ*/
+
+/*FINALIZA luz*/
 
 /*# sourceMappingURL=main.css.map */

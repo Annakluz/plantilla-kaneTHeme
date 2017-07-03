@@ -13,7 +13,8 @@
 .container{
     width: 100%;
     max-width: 1200px;
-    margin: 0px, auto;
+    margin: 0px auto;
+
 }
 
 .templateRow{
@@ -51,11 +52,11 @@
         border: .3px solid $blanco;
         margin-bottom: 3rem;
     }
-    
+
     div.col-5 {
         padding: 0 2rem;
     }
-    
+
     .acercaDeNosotros__textos {
 	    margin-bottom: 3rem;
     }
@@ -74,16 +75,16 @@
 	    }
         .primera {
             width: 97%;
-        }        
+        }
         .segunda {
             width: 93%;
-        }        
+        }
         .tercera {
             width: 55%;
-        }        
+        }
         .cuarta {
             width: 67%;
-        }        
+        }
         .quinta {
             width: 90%;
         }
@@ -101,9 +102,12 @@
 /*   final estilos DIANA   */
 /*LUZ 1era seccion*/
 .paleta-color{
-	background-color: red;text-align: center;
+	width: 100%;
+	background-color: $blanco;
+	text-align: center;
+	padding: 4rem 0 0 0;
 	&__titulo{
-		@include fuente($tamano-titulo,$blanco);
+		@include fuente($tamano-titulo,$negro);
 
 	}
 	&__cuadro-color{
