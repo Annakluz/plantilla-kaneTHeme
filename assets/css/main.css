@@ -94,6 +94,7 @@
   padding: 12px;
   float: left; }
 
+
 nav {
   background-color: #27AD60; }
 
@@ -117,5 +118,139 @@ nav {
 
 .home {
   background-image: url("../img/carousel-bg.jpg"); }
+
+/*   inicio estilos DIANA   */
+.acercaDeNosotros {
+  background-color: #2C3E50;
+  padding: 7rem 0; }
+  .acercaDeNosotros .acercaDeNosotros__titulo {
+    font-size: 2.5rem;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 2rem; }
+  .acercaDeNosotros .acercaDeNosotros__separador {
+    border: 0.3px solid #FFF;
+    margin-bottom: 3rem; }
+  .acercaDeNosotros div.col-5 {
+    padding: 0 2rem; }
+  .acercaDeNosotros .acercaDeNosotros__textos {
+    margin-bottom: 3rem; }
+  .acercaDeNosotros .acercaDeNosotros__texto {
+    font-size: 0.8rem;
+    color: #FFF;
+    margin-bottom: 1rem; }
+  .acercaDeNosotros .acercaDeNosotros__barra {
+    border: 1px solid #FFF;
+    background-color: #FFF;
+    height: 10px;
+    margin-bottom: .5rem; }
+    .acercaDeNosotros .acercaDeNosotros__barra .acercaDeNosotros__barraProgreso-- {
+      background-color: #E67E22;
+      height: 100%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .primera {
+      width: 97%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .segunda {
+      width: 93%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .tercera {
+      width: 55%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .cuarta {
+      width: 67%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .quinta {
+      width: 90%; }
+  .acercaDeNosotros .acercaDeNosotros__subtitulo-barra {
+    font-size: 0.6rem;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 1rem; }
+  .acercaDeNosotros .acercaDeNosotros__imagen {
+    width: 100%; }
+
+/*   final estilos DIANA   */
+
+/*LUZ*estilos */
+.paleta-color {
+  background-color: red;
+  text-align: center; }
+  .paleta-color__titulo {
+    font-size: 2.5rem;
+    color: #FFF; }
+  .paleta-color__cuadro-color {
+    height: 22vh; }
+    .paleta-color__cuadro-color--celeste {
+      background-color: #69D2E7;
+      height: 20vh; }
+    .paleta-color__cuadro-color--azul-claro {
+      background-color: #A7DBDB;
+      height: 20vh; }
+    .paleta-color__cuadro-color--gris-calido {
+      background-color: #E0E4CC;
+      height: 20vh; }
+    .paleta-color__cuadro-color--naranja {
+      background-color: #F38630;
+      height: 20vh; }
+    .paleta-color__cuadro-color--naranja-fuerte {
+      background-color: #FA6900;
+      height: 20vh; }
+    .paleta-color__cuadro-color--rosa {
+      background-color: #E94C6F;
+      height: 20vh; }
+    .paleta-color__cuadro-color--uva {
+      background-color: #542733;
+      height: 20vh; }
+    .paleta-color__cuadro-color--gris {
+      background-color: #5A6A62;
+      height: 20vh; }
+    .paleta-color__cuadro-color--gris-claro {
+      background-color: #C6D5CD;
+      height: 20vh; }
+    .paleta-color__cuadro-color--amarillo {
+      background-color: #FDF200;
+      height: 20vh; }
+    .paleta-color__cuadro-color--rojo-fuerte {
+      background-color: #DB3340;
+      height: 20vh; }
+    .paleta-color__cuadro-color--mostaza {
+      background-color: #E8B71A;
+      height: 20vh; }
+    .paleta-color__cuadro-color--hueso {
+      background-color: #F7EAC8;
+      height: 20vh; }
+    .paleta-color__cuadro-color--menta {
+      background-color: #1FDA9A;
+      height: 20vh; }
+    .paleta-color__cuadro-color--cielo {
+      background-color: #28ABE3;
+      height: 20vh; }
+    .paleta-color__cuadro-color--gris-verde {
+      background-color: #588C73;
+      height: 20vh; }
+    .paleta-color__cuadro-color--durazno-claro {
+      background-color: #F2E394;
+      height: 20vh; }
+    .paleta-color__cuadro-color--durazno {
+      background-color: #F2AE72;
+      height: 20vh; }
+    .paleta-color__cuadro-color--salmon {
+      background-color: #D96459;
+      height: 20vh; }
+    .paleta-color__cuadro-color--vino {
+      background-color: #8C4646;
+      height: 20vh; }
+    .paleta-color__cuadro-color--amarillo-limon {
+      background-color: #D0C91F;
+      height: 20vh; }
+    .paleta-color__cuadro-color--azul-gris {
+      background-color: #85C4B9;
+      height: 20vh; }
+    .paleta-color__cuadro-color--azul {
+      background-color: #008BBA;
+      height: 20vh; }
+    .paleta-color__cuadro-color--rojo-claro {
+      background-color: #DF514C;
+      height: 20vh; }
+    .paleta-color__cuadro-color--rojo {
+      background-color: #DC403B;
+      height: 20vh; }
+/* FINAL LUZ*/
 
 /*# sourceMappingURL=main.css.map */
