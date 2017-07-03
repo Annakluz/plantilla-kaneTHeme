@@ -66,17 +66,17 @@ background-image: url("../img/carousel-bg.jpg");
 background-size: cover;
 padding: 7rem 0;
 
-  .home__titulo {
+  &__titulo {
     @include fuente($tamano-titulo,$blanco);
     text-align: center;
     margin-bottom: 2rem;
   }
 
-  .home__textos {
+  &__textos {
     margin-bottom: 3rem;
   }
 
-  .home__texto {
+  &__texto {
     @include fuente($tamano-titulo-secuendario,$blanco);
       margin-bottom: 1rem;
   }
@@ -86,12 +86,12 @@ padding: 7rem 0;
 .acercaDeNosotros {
     background-color: $fondo-azul;
     padding: 7rem 0;
-    .acercaDeNosotros__titulo {
+    &__titulo {
         @include fuente($tamano-titulo, $blanco);
         text-align: center;
         margin-bottom: 2rem;
     }
-    .acercaDeNosotros__separador {
+    &__separador {
         border: .1px solid $blanco;
         margin-bottom: 3rem;
     }
@@ -101,19 +101,19 @@ padding: 7rem 0;
             padding-left: 4rem;
         }
     }
-    .acercaDeNosotros__textos {
+    &__textos {
         margin-bottom: 3rem;
     }
-    .acercaDeNosotros__texto {
+    &__texto {
         @include fuente($tamano-parrafos, $blanco);
         margin-bottom: 1rem;
     }
-    .acercaDeNosotros__barra {
+    &__barra {
         border: 1.5px solid $blanco;
         background-color: $blanco;
         height: 10px;
         margin-bottom: .5rem;
-        .acercaDeNosotros__barraProgreso-- {
+        .acercaDeNosotros__barraProgreso {
             background-color: $acento-naranja;
             height: 100%;
         }
@@ -133,12 +133,12 @@ padding: 7rem 0;
             width: 90%;
         }
     }
-    .acercaDeNosotros__subtitulo-barra {
+    &__subtitulo-barra {
         @include fuente(.7rem, $blanco);
         text-transform: uppercase;
         margin-bottom: 1rem;
     }
-    .acercaDeNosotros__imagen {
+    &__imagen {
         width: 100%;
     }
 }
@@ -520,7 +520,7 @@ padding: 7rem 0;
   margin:0;
   background-image: url(../img/img-divider-img.jpg);
   background-position: center;
-  background-size: cover; 
+  background-size: cover;
   width: 100vw;
   height: 450px;
   display: flex;
@@ -532,7 +532,7 @@ padding: 7rem 0;
     text-align: center;
     .redes__icono{
        color:white;
-        margin:10px; 
+        margin:10px;
     }
 }
 
@@ -554,9 +554,9 @@ footer{
     }
 
     a{
-       display: inline-block; 
+       display: inline-block;
        color:white;
-       text-align: center; 
+       text-align: center;
        text-decoration: none;
        font-size: $tamano-parrafos;
        margin-bottom:1rem;
@@ -569,15 +569,15 @@ footer{
         background-color: $gris-botones;
         border: none;
         width: 40px;
-        
+
     }
     .footer__btn--suscribe{
             @extend .footer__btn;
             width: 120px;
             color:white;
             margin-bottom: 30px;
-            text-align: center; 
-            
+            text-align: center;
+
     }
     .cent{
         text-align: center;
@@ -596,7 +596,7 @@ footer{
         align-items:baseline;
         p{
           font-size: $tamano-parrafos;
-          color:$gris-botones;  
+          color:$gris-botones;
         }
         a{
             font-size: $tamano-parrafos;

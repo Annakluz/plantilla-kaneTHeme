@@ -120,14 +120,14 @@ nav {
   background-image: url("../img/carousel-bg.jpg");
   background-size: cover;
   padding: 7rem 0; }
-  .home .home__titulo {
+  .home__titulo {
     font-size: 3rem;
     color: #FFF;
     text-align: center;
     margin-bottom: 2rem; }
-  .home .home__textos {
+  .home__textos {
     margin-bottom: 3rem; }
-  .home .home__texto {
+  .home__texto {
     font-size: 2rem;
     color: #FFF;
     margin-bottom: 1rem; }
@@ -136,48 +136,48 @@ nav {
 .acercaDeNosotros {
   background-color: #2C3E50;
   padding: 7rem 0; }
-  .acercaDeNosotros .acercaDeNosotros__titulo {
+  .acercaDeNosotros__titulo {
     font-size: 3rem;
     color: #FFF;
     text-align: center;
     margin-bottom: 2rem; }
-  .acercaDeNosotros .acercaDeNosotros__separador {
+  .acercaDeNosotros__separador {
     border: 0.1px solid #FFF;
     margin-bottom: 3rem; }
   .acercaDeNosotros div.col-5 {
     padding: 0 2rem; }
     .acercaDeNosotros div.col-5:last-child {
       padding-left: 4rem; }
-  .acercaDeNosotros .acercaDeNosotros__textos {
+  .acercaDeNosotros__textos {
     margin-bottom: 3rem; }
-  .acercaDeNosotros .acercaDeNosotros__texto {
+  .acercaDeNosotros__texto {
     font-size: 0.9rem;
     color: #FFF;
     margin-bottom: 1rem; }
-  .acercaDeNosotros .acercaDeNosotros__barra {
+  .acercaDeNosotros__barra {
     border: 1.5px solid #FFF;
     background-color: #FFF;
     height: 10px;
     margin-bottom: .5rem; }
-    .acercaDeNosotros .acercaDeNosotros__barra .acercaDeNosotros__barraProgreso-- {
+    .acercaDeNosotros__barra .acercaDeNosotros__barraProgreso {
       background-color: #E67E22;
       height: 100%; }
-    .acercaDeNosotros .acercaDeNosotros__barra .primera {
+    .acercaDeNosotros__barra .primera {
       width: 97%; }
-    .acercaDeNosotros .acercaDeNosotros__barra .segunda {
+    .acercaDeNosotros__barra .segunda {
       width: 93%; }
-    .acercaDeNosotros .acercaDeNosotros__barra .tercera {
+    .acercaDeNosotros__barra .tercera {
       width: 55%; }
-    .acercaDeNosotros .acercaDeNosotros__barra .cuarta {
+    .acercaDeNosotros__barra .cuarta {
       width: 67%; }
-    .acercaDeNosotros .acercaDeNosotros__barra .quinta {
+    .acercaDeNosotros__barra .quinta {
       width: 90%; }
-  .acercaDeNosotros .acercaDeNosotros__subtitulo-barra {
+  .acercaDeNosotros__subtitulo-barra {
     font-size: 0.7rem;
     color: #FFF;
     text-transform: uppercase;
     margin-bottom: 1rem; }
-  .acercaDeNosotros .acercaDeNosotros__imagen {
+  .acercaDeNosotros__imagen {
     width: 100%; }
 
 /*   final estilos DIANA   */
@@ -452,7 +452,7 @@ nav {
   font-size: 1.5rem; }
 
 /* ---- TERMINA GABY ---- */
-/*Inicia sección PARI*/
+/*Inicia secci├│n PARI*/
 .redes {
   margin: 0;
   background-image: url(../img/img-divider-img.jpg);
@@ -521,6 +521,6 @@ footer {
     footer .footer__renglon a {
       font-size: 0.9rem; }
 
-/*Termina sección PARI*/
+/*Termina secci├│n PARI*/
 
 /*# sourceMappingURL=main.css.map */
