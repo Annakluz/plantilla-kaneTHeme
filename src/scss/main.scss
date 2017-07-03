@@ -69,13 +69,13 @@
 
 .precioCol{
     display: inline-grid;
-    .tablaPrecios{
+    .row__precioCol--tablaPrecios{
         font-size: 16px;
         text-align: center;
         border: 1.5px solid $fondo-verde;
         width: 100%;
     }
-    .tablaPrecios:hover{
+    .row__precioCol--tablaPrecios:hover{
         border: 1.7px solid $acento-naranja;
         margin-top: -40px;
     }
@@ -91,13 +91,13 @@
 }
 
 .precioCol{
-    .subtituloVerde{
+    .precioCol__table--subtituloVerde{
             background-color: $fondo-verde;
             height: 100px;
             color: white;
             font-size: $tamano-subtitulo;
         }
-        .signPrecios{
+        .precioCol__table--boton{
             border: none;
             background-color: $gris-botones;
             padding: 10px;
@@ -105,7 +105,7 @@
             font-size: 18px;
             margin: 50px;
         }
-        .celdaBlanca{
+        .precioCol__table--celdaBlanca{
             background-color: white;
             td{
             color: $fondo-azul;

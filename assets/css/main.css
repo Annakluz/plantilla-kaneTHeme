@@ -120,12 +120,12 @@
 
 .precioCol {
   display: inline-grid; }
-  .precioCol .tablaPrecios {
+  .precioCol .row__precioCol--tablaPrecios {
     font-size: 16px;
     text-align: center;
     border: 1.5px solid #27AD60;
     width: 100%; }
-  .precioCol .tablaPrecios:hover {
+  .precioCol .row__precioCol--tablaPrecios:hover {
     border: 1.7px solid #E67E22;
     margin-top: -40px; }
   .precioCol tr, .precioCol th, .precioCol td {
@@ -136,21 +136,21 @@
     font-size: 1.2rem;
     color: #C1C1C1; }
 
-.precioCol .subtituloVerde {
+.precioCol .precioCol__table--subtituloVerde {
   background-color: #27AD60;
   height: 100px;
   color: white;
   font-size: 1.2rem; }
-.precioCol .signPrecios {
+.precioCol .precioCol__table--boton {
   border: none;
   background-color: #443E44;
   padding: 10px;
   color: white;
   font-size: 18px;
   margin: 50px; }
-.precioCol .celdaBlanca {
+.precioCol .precioCol__table--celdaBlanca {
   background-color: white; }
-  .precioCol .celdaBlanca td {
+  .precioCol .precioCol__table--celdaBlanca td {
     color: #2C3E50; }
 
 /*# sourceMappingURL=main.css.map */
