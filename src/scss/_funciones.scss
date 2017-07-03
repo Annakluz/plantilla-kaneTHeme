@@ -7,3 +7,8 @@
         width: anchoDeColumnas($i);
     }
 }
+@for $i from 1 through 12 {
+    .col-offset#{$i}{
+        margin-left:  anchoDeColumnas($i);
+    }
+}
