@@ -34,11 +34,55 @@
 .col-12 {
   width: 100%; }
 
+
+
+.col-offset1 {
+  margin-left: 8.33333%; }
+
+.col-offset2 {
+  margin-left: 16.66667%; }
+
+.col-offset3 {
+  margin-left: 25%; }
+
+.col-offset4 {
+  margin-left: 33.33333%; }
+
+.col-offset5 {
+  margin-left: 41.66667%; }
+
+.col-offset6 {
+  margin-left: 50%; }
+
+.col-offset7 {
+  margin-left: 58.33333%; }
+
+.col-offset8 {
+  margin-left: 66.66667%; }
+
+.col-offset9 {
+  margin-left: 75%; }
+
+.col-offset10 {
+  margin-left: 83.33333%; }
+
+.col-offset11 {
+  margin-left: 91.66667%; }
+
+.col-offset12 {
+  margin-left: 100%; }
+
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+
+
   font-family: sans-serif;
+
   color: #424242; }
 
 .container {
