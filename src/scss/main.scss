@@ -67,6 +67,23 @@ nav {
 // Para HOME
 .home {
 background-image: url("../img/carousel-bg.jpg");
+background-size: cover;
+padding: 7rem 0;
+
+  .home__titulo {
+    @include fuente($tamano-titulo,$blanco);
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .home__textos {
+    margin-bottom: 3rem;
+  }
+
+  .home__texto {
+    @include fuente($tamano-titulo-secuendario,$blanco);
+      margin-bottom: 1rem;
+  }
 }
 
 /*   inicio estilos DIANA   */
@@ -304,7 +321,7 @@ background-image: url("../img/carousel-bg.jpg");
 
 .contact__text--quote{
     @extend .client__text--quote;
-    
+
 }
 
 .quest{
@@ -315,13 +332,13 @@ background-image: url("../img/carousel-bg.jpg");
     @extend .contact__texto;
     grid-row-gap: 3vh;
     justify-items: center;
-    
+
 }
 
 .quest__form--input{
     width: 100%;
     margin-top: 5vh;
-    
+
 }
 
 .quest__form--text{
@@ -349,4 +366,3 @@ background-image: url("../img/carousel-bg.jpg");
     @extend .client__div;
     margin-right: 33%;
 }
-
