@@ -14,7 +14,6 @@
     width: 100%;
     max-width: 1200px;
     margin: 0px auto;
-
 }
 
 .templateRow{
@@ -37,8 +36,6 @@
     padding: 12px;
     float:left;
 }
-
-
 
 
 // Para NAV
@@ -86,40 +83,41 @@ padding: 7rem 0;
   }
 }
 
-/*   inicio estilos DIANA   */
+/*   inicio estilos ABOUT US - DIANA   */
 .acercaDeNosotros {
-	background-color: $fondo-azul;
+    background-color: $fondo-azul;
     padding: 7rem 0;
     .acercaDeNosotros__titulo {
-        @include fuente($tamano-titulo,$blanco);
+        @include fuente($tamano-titulo, $blanco);
         text-align: center;
         margin-bottom: 2rem;
     }
     .acercaDeNosotros__separador {
-        border: .3px solid $blanco;
+        border: .1px solid $blanco;
         margin-bottom: 3rem;
     }
-
     div.col-5 {
         padding: 0 2rem;
+        &:last-child {
+            padding-left: 4rem;
+        }
     }
-
     .acercaDeNosotros__textos {
-	    margin-bottom: 3rem;
+        margin-bottom: 3rem;
     }
     .acercaDeNosotros__texto {
-	    @include fuente($tamano-parrafos,$blanco);
+        @include fuente($tamano-parrafos, $blanco);
         margin-bottom: 1rem;
     }
     .acercaDeNosotros__barra {
-	    border: 1px solid $blanco;
+        border: 1.5px solid $blanco;
         background-color: $blanco;
         height: 10px;
         margin-bottom: .5rem;
         .acercaDeNosotros__barraProgreso-- {
             background-color: $acento-naranja;
             height: 100%;
-	    }
+        }
         .primera {
             width: 97%;
         }
@@ -137,15 +135,14 @@ padding: 7rem 0;
         }
     }
     .acercaDeNosotros__subtitulo-barra {
-	    @include fuente(.6rem,$blanco);
+        @include fuente(.7rem, $blanco);
         text-transform: uppercase;
         margin-bottom: 1rem;
-}
+    }
     .acercaDeNosotros__imagen {
-	width: 100%;
+        width: 100%;
+    }
 }
-}
-
 /*   final estilos DIANA   */
 /*LUZ 1era seccion*/
 .paleta-color{
@@ -260,13 +257,85 @@ padding: 7rem 0;
 			background-color: $rojo;
 			height: $paleta-alto-cuadro;
 		}
-
-
-
 	}
 }
-
 /*FINALIZA luz*/
+/*mimi*/
+#Precios{
+    background-color: $fondo-azul;
+    padding-bottom: 80px;
+}
+
+.precioRow{
+    font-size: 0;
+    #mejoresPrecios{
+        text-align: center;
+        font-size: 16px;
+    }
+    #lineaPrecios{
+        border: 1px solid white;
+        width: 15%;
+        position: relative;
+        left: 42%;
+    }
+    #tituloPrecios{
+        font-size: $tamano-titulo;
+        color: white;
+        padding: 30px;
+        margin-top: 20px;
+    }
+    #descripcionPrecios{
+        color: white;
+        padding: 30px;
+        margin-bottom: 80px;
+    }
+}
+
+.precioCol{
+    display: inline-grid;
+    .precioCol__tablaPrecios{
+        font-size: 16px;
+        text-align: center;
+        border: 1.5px solid $fondo-verde;
+        width: 100%;
+    }
+    .precioCol__tablaPrecios:hover{
+        border: 1.7px solid $acento-naranja;
+        margin-top: -40px;
+    }
+    tr,th, td{
+        color: white;
+        height: auto;
+        padding: 10px;
+    }
+    th{
+        font-size: $tamano-subtitulo;
+        color: $gris-texto;
+    }
+}
+
+.precioCol{
+    .precioCol__table--subtituloVerde{
+            background-color: $fondo-verde;
+            height: 100px;
+            color: white;
+            font-size: $tamano-subtitulo;
+        }
+        .precioCol__table--boton{
+            border: none;
+            background-color: $gris-botones;
+            padding: 10px;
+            color: white;
+            font-size: 18px;
+            margin: 50px;
+        }
+        .precioCol__table--celdaBlanca{
+            background-color: white;
+            td{
+            color: $fondo-azul;
+            }
+        }
+}
 
  /* ------ANN------------ */
 .client{
@@ -365,4 +434,83 @@ padding: 7rem 0;
 .contact__div{
     @extend .client__div;
     margin-right: 33%;
+
 }
+
+/* ---- GABY ----- */
+.queHacemos{
+  max-width: 100%;
+  background: $fondo-verde;
+  text-align: center;
+  padding: 5%;
+    .queHacemos_titulo{
+      @include fuente($tamano-titulo,$blanco);
+      margin: 2%;
+    }
+    .queHacemos_subtitulo{
+      @include fuente($tamano-titulo-secuendario,$blanco);
+      margin: 5%;
+    }
+    .queHacemos_parrafo--blanco{
+      @include fuente($tamano-parrafos,$blanco);
+      margin: 2%;
+    }
+    .queHacemos_parrafo--gris{
+      @include fuente($tamano-parrafos,$gris-texto);
+      margin: 6%;
+    }
+    .queHacemos_boton{
+      background: $fondo-azul;
+      padding: 1%;
+      @include fuente($tamano-subtitulo,$blanco);
+      border: none;
+      margin: 2%;
+    }
+    .queHacemos_imagen--fondo{
+      background-color: $gris-botones;
+      background-image: url(../img/icon-bg.png);
+      background-position: center;
+      width: 150px;
+      padding: 5%;
+      text-align: center;
+      margin: auto;
+    }
+    .queHacemos_separacion{
+      margin: auto;
+      width: 20%;
+    }
+}
+.equipo{
+  @extend .queHacemos;
+  .equipo_titulo{
+    @extend .queHacemos_titulo;
+  }
+  .equipo_separacion{
+    @extend .queHacemos_separacion;
+  }
+  .equipo_parrafo--blanco{
+    @extend .queHacemos_parrafo--blanco;
+  }
+  .equipo_parrafo--gris{
+    @extend .queHacemos_parrafo--gris;
+  }
+  .equipo_parrafo--negro{
+    @include fuente($tamano-parrafos,$negro);
+    margin: 3%;
+  }
+  .equipo_separacion--dashed{
+    color: $gris-texto;
+    border-style: dashed;
+    margin: auto;
+  }
+  .equipo_nombre{
+    @include fuente($tamano-subtitulo,$blanco);
+    margin: 4%;
+  }
+  .equipo_redesSociales{
+    color: $gris-texto;
+    margin: 2%;
+    font-size: $tamano-subtitulo;
+  }
+}
+/* ---- TERMINA GABY ---- */
