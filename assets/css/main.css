@@ -120,12 +120,12 @@
 
 .precioCol {
   display: inline-grid; }
-  .precioCol .row__precioCol--tablaPrecios {
+  .precioCol .precioCol__tablaPrecios {
     font-size: 16px;
     text-align: center;
     border: 1.5px solid #27AD60;
     width: 100%; }
-  .precioCol .row__precioCol--tablaPrecios:hover {
+  .precioCol .precioCol__tablaPrecios:hover {
     border: 1.7px solid #E67E22;
     margin-top: -40px; }
   .precioCol tr, .precioCol th, .precioCol td {

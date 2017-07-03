@@ -69,13 +69,13 @@
 
 .precioCol{
     display: inline-grid;
-    .row__precioCol--tablaPrecios{
+    .precioCol__tablaPrecios{
         font-size: 16px;
         text-align: center;
         border: 1.5px solid $fondo-verde;
         width: 100%;
     }
-    .row__precioCol--tablaPrecios:hover{
+    .precioCol__tablaPrecios:hover{
         border: 1.7px solid $acento-naranja;
         margin-top: -40px;
     }
