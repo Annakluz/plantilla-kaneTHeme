@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .col-1 {
   width: 8.33333%; }
 
@@ -451,5 +452,75 @@ nav {
   font-size: 1.5rem; }
 
 /* ---- TERMINA GABY ---- */
+/*Inicia sección PARI*/
+.redes {
+  margin: 0;
+  background-image: url(../img/img-divider-img.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+.redes__contenedor {
+  text-align: center; }
+  .redes__contenedor .redes__icono {
+    color: white;
+    margin: 10px; }
+
+footer {
+  background-color: #27AD60; }
+  footer .footer__enlaces {
+    margin-bottom: 2rem; }
+  footer h4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: center; }
+  footer p {
+    color: white;
+    text-align: center;
+    margin-bottom: 2rem; }
+  footer a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-bottom: 1rem; }
+  footer i {
+    color: white; }
+  footer .footer__btn, footer .footer__btn--suscribe {
+    height: 32px;
+    background-color: #443E44;
+    border: none;
+    width: 40px; }
+  footer .footer__btn--suscribe {
+    width: 120px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center; }
+  footer .cent {
+    text-align: center; }
+  footer .orange {
+    color: orange; }
+  footer input {
+    width: 130px;
+    height: 30px;
+    margin-bottom: 18px; }
+  footer .footer__renglon {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline; }
+    footer .footer__renglon p {
+      font-size: 0.9rem;
+      color: #443E44; }
+    footer .footer__renglon a {
+      font-size: 0.9rem; }
+
+/*Termina sección PARI*/
 
 /*# sourceMappingURL=main.css.map */
