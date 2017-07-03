@@ -69,40 +69,41 @@ nav {
 background-image: url("../img/carousel-bg.jpg");
 }
 
-/*   inicio estilos DIANA   */
+/*   inicio estilos ABOUT US - DIANA   */
 .acercaDeNosotros {
-	background-color: $fondo-azul;
+    background-color: $fondo-azul;
     padding: 7rem 0;
     .acercaDeNosotros__titulo {
-        @include fuente($tamano-titulo,$blanco);
+        @include fuente($tamano-titulo, $blanco);
         text-align: center;
         margin-bottom: 2rem;
     }
     .acercaDeNosotros__separador {
-        border: .3px solid $blanco;
+        border: .1px solid $blanco;
         margin-bottom: 3rem;
     }
-
     div.col-5 {
         padding: 0 2rem;
+        &:last-child {
+            padding-left: 4rem;
+        }
     }
-
     .acercaDeNosotros__textos {
-	    margin-bottom: 3rem;
+        margin-bottom: 3rem;
     }
     .acercaDeNosotros__texto {
-	    @include fuente($tamano-parrafos,$blanco);
+        @include fuente($tamano-parrafos, $blanco);
         margin-bottom: 1rem;
     }
     .acercaDeNosotros__barra {
-	    border: 1px solid $blanco;
+        border: 1.5px solid $blanco;
         background-color: $blanco;
         height: 10px;
         margin-bottom: .5rem;
         .acercaDeNosotros__barraProgreso-- {
             background-color: $acento-naranja;
             height: 100%;
-	    }
+        }
         .primera {
             width: 97%;
         }
@@ -120,15 +121,14 @@ background-image: url("../img/carousel-bg.jpg");
         }
     }
     .acercaDeNosotros__subtitulo-barra {
-	    @include fuente(.6rem,$blanco);
+        @include fuente(.7rem, $blanco);
         text-transform: uppercase;
         margin-bottom: 1rem;
-}
+    }
     .acercaDeNosotros__imagen {
-	width: 100%;
+        width: 100%;
+    }
 }
-}
-
 /*   final estilos DIANA   */
 /*LUZ 1era seccion*/
 .paleta-color{
@@ -243,12 +243,8 @@ background-image: url("../img/carousel-bg.jpg");
 			background-color: $rojo;
 			height: $paleta-alto-cuadro;
 		}
-
-
-
 	}
 }
-
 /*FINALIZA luz*/
 
  /* ------ANN------------ */
