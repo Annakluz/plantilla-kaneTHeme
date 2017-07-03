@@ -97,25 +97,48 @@
 /*   inicio estilos DIANA   */
 .acercaDeNosotros {
   background-color: #2C3E50;
-  padding: 4rem 0; }
+  padding: 7rem 0; }
   .acercaDeNosotros .acercaDeNosotros__titulo {
     font-size: 2.5rem;
     color: #FFF;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 2rem; }
   .acercaDeNosotros .acercaDeNosotros__separador {
-    border: 0.3px solid #FFF; }
+    border: 0.3px solid #FFF;
+    margin-bottom: 3rem; }
+  .acercaDeNosotros div.col-5 {
+    padding: 0 2rem; }
+  .acercaDeNosotros .acercaDeNosotros__textos {
+    margin-bottom: 3rem; }
   .acercaDeNosotros .acercaDeNosotros__texto {
     font-size: 0.8rem;
-    color: #FFF; }
+    color: #FFF;
+    margin-bottom: 1rem; }
   .acercaDeNosotros .acercaDeNosotros__barra {
-    border: 0.7px solid #FFF;
+    border: 1px solid #FFF;
     background-color: #FFF;
-    height: 10px; }
+    height: 10px;
+    margin-bottom: .5rem; }
     .acercaDeNosotros .acercaDeNosotros__barra .acercaDeNosotros__barraProgreso-- {
       background-color: #E67E22;
       height: 100%; }
     .acercaDeNosotros .acercaDeNosotros__barra .primera {
       width: 97%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .segunda {
+      width: 93%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .tercera {
+      width: 55%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .cuarta {
+      width: 67%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .quinta {
+      width: 90%; }
+  .acercaDeNosotros .acercaDeNosotros__subtitulo-barra {
+    font-size: 0.6rem;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 1rem; }
+  .acercaDeNosotros .acercaDeNosotros__imagen {
+    width: 100%; }
 
 /*   final estilos DIANA   */
 
