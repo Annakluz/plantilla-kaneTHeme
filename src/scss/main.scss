@@ -14,7 +14,6 @@
     width: 100%;
     max-width: 1200px;
     margin: 0px auto;
-
 }
 
 .templateRow{
@@ -37,8 +36,6 @@
     padding: 12px;
     float:left;
 }
-
-
 
 
 // Para NAV
@@ -246,6 +243,82 @@ background-image: url("../img/carousel-bg.jpg");
 	}
 }
 /*FINALIZA luz*/
+/*mimi*/
+#Precios{
+    background-color: $fondo-azul;
+    padding-bottom: 80px;
+}
+
+.precioRow{
+    font-size: 0;
+    #mejoresPrecios{
+        text-align: center;
+        font-size: 16px;
+    }
+    #lineaPrecios{
+        border: 1px solid white;
+        width: 15%;
+        position: relative;
+        left: 42%;
+    }
+    #tituloPrecios{
+        font-size: $tamano-titulo;
+        color: white;
+        padding: 30px;
+        margin-top: 20px;
+    }
+    #descripcionPrecios{
+        color: white;
+        padding: 30px;
+        margin-bottom: 80px;
+    }
+}
+
+.precioCol{
+    display: inline-grid;
+    .precioCol__tablaPrecios{
+        font-size: 16px;
+        text-align: center;
+        border: 1.5px solid $fondo-verde;
+        width: 100%;
+    }
+    .precioCol__tablaPrecios:hover{
+        border: 1.7px solid $acento-naranja;
+        margin-top: -40px;
+    }
+    tr,th, td{
+        color: white;
+        height: auto;
+        padding: 10px;
+    }
+    th{
+        font-size: $tamano-subtitulo;
+        color: $gris-texto;
+    }
+}
+
+.precioCol{
+    .precioCol__table--subtituloVerde{
+            background-color: $fondo-verde;
+            height: 100px;
+            color: white;
+            font-size: $tamano-subtitulo;
+        }
+        .precioCol__table--boton{
+            border: none;
+            background-color: $gris-botones;
+            padding: 10px;
+            color: white;
+            font-size: 18px;
+            margin: 50px;
+        }
+        .precioCol__table--celdaBlanca{
+            background-color: white;
+            td{
+            color: $fondo-azul;
+            }
+        }
+       
 
  /* ------ANN------------ */
 .client{
@@ -344,5 +417,6 @@ background-image: url("../img/carousel-bg.jpg");
 .contact__div{
     @extend .client__div;
     margin-right: 33%;
+
 }
 
