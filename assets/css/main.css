@@ -123,7 +123,7 @@ nav {
   background-color: #2C3E50;
   padding: 7rem 0; }
   .acercaDeNosotros .acercaDeNosotros__titulo {
-    font-size: 3.8rem;
+    font-size: 3rem;
     color: #FFF;
     text-align: center;
     margin-bottom: 2rem; }
@@ -174,7 +174,7 @@ nav {
   text-align: center;
   padding: 4rem 0 0 0; }
   .paleta-color__titulo {
-    font-size: 3.8rem;
+    font-size: 3rem;
     color: #000; }
   .paleta-color__cuadro-color {
     height: 22vh; }
@@ -271,7 +271,7 @@ nav {
     position: relative;
     left: 42%; }
   .precioRow #tituloPrecios {
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: white;
     padding: 30px;
     margin-top: 20px; }
@@ -295,14 +295,14 @@ nav {
     height: auto;
     padding: 10px; }
   .precioCol th {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: #C1C1C1; }
 
 .precioCol .precioCol__table--subtituloVerde {
   background-color: #27AD60;
   height: 100px;
   color: white;
-  font-size: 1.2rem; }
+  font-size: 1.5rem; }
 .precioCol .precioCol__table--boton {
   border: none;
   background-color: #443E44;
@@ -314,6 +314,7 @@ nav {
   background-color: white; }
   .precioCol .precioCol__table--celdaBlanca td {
     color: #2C3E50; }
+
 /* ------ANN------------ */
 .client, .contact, .quest {
   background-color: #2C3E50;
@@ -331,7 +332,7 @@ nav {
 
 .client__text--header {
   color: #FFF;
-  font-size: 3.8rem;
+  font-size: 3rem;
   margin-bottom: 2rem; }
 
 .client__text--orange {
@@ -350,7 +351,7 @@ nav {
   font-size: 0.9rem; }
 
 .contact__texto--header {
-  font-size: 3.8rem; }
+  font-size: 3rem; }
 
 .quest__form {
   grid-row-gap: 3vh;
@@ -377,6 +378,7 @@ nav {
 
 .contact__div {
   margin-right: 33%; }
+
 /* ---- GABY ----- */
 .queHacemos, .equipo {
   max-width: 100%;
@@ -384,7 +386,7 @@ nav {
   text-align: center;
   padding: 5%; }
   .queHacemos .queHacemos_titulo, .equipo .queHacemos_titulo, .equipo .equipo_titulo {
-    font-size: 3.8rem;
+    font-size: 3rem;
     color: #FFF;
     margin: 2%; }
   .queHacemos .queHacemos_subtitulo, .equipo .queHacemos_subtitulo {
