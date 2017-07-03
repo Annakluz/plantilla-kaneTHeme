@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    color:#424242;
+    color:$blanco;
 }
 
 .container{
@@ -37,6 +37,213 @@
     float:left;
 }
 
+
+// Para NAV
+nav {
+  background-color:  #27AD60;
+}
+
+.img-logo {
+  width: 150%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.menu {
+  text-align: right;
+
+  li {
+    @include list;
+
+    a {
+      @include list-style;
+    }
+  }
+}
+
+// Para HOME
+.home {
+background-image: url("../img/carousel-bg.jpg");
+}
+
+/*   inicio estilos ABOUT US - DIANA   */
+.acercaDeNosotros {
+    background-color: $fondo-azul;
+    padding: 7rem 0;
+    .acercaDeNosotros__titulo {
+        @include fuente($tamano-titulo, $blanco);
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .acercaDeNosotros__separador {
+        border: .1px solid $blanco;
+        margin-bottom: 3rem;
+    }
+    div.col-5 {
+        padding: 0 2rem;
+        &:last-child {
+            padding-left: 4rem;
+        }
+    }
+    .acercaDeNosotros__textos {
+        margin-bottom: 3rem;
+    }
+    .acercaDeNosotros__texto {
+        @include fuente($tamano-parrafos, $blanco);
+        margin-bottom: 1rem;
+    }
+    .acercaDeNosotros__barra {
+        border: 1.5px solid $blanco;
+        background-color: $blanco;
+        height: 10px;
+        margin-bottom: .5rem;
+        .acercaDeNosotros__barraProgreso-- {
+            background-color: $acento-naranja;
+            height: 100%;
+        }
+        .primera {
+            width: 97%;
+        }
+        .segunda {
+            width: 93%;
+        }
+        .tercera {
+            width: 55%;
+        }
+        .cuarta {
+            width: 67%;
+        }
+        .quinta {
+            width: 90%;
+        }
+    }
+    .acercaDeNosotros__subtitulo-barra {
+        @include fuente(.7rem, $blanco);
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+    .acercaDeNosotros__imagen {
+        width: 100%;
+    }
+}
+/*   final estilos DIANA   */
+/*LUZ 1era seccion*/
+.paleta-color{
+	width: 100%;
+	background-color: $blanco;
+	text-align: center;
+	padding: 4rem 0 0 0;
+	&__titulo{
+		@include fuente($tamano-titulo,$negro);
+
+	}
+	&__cuadro-color{
+		height: 22vh;
+
+		&--celeste{
+			background-color: $celeste;
+			height: $paleta-alto-cuadro;
+		}
+		&--azul-claro{
+			background-color: $azul-claro;
+			height: $paleta-alto-cuadro;
+		}
+		&--gris-calido{
+			background-color: $gris-calido;
+			height: $paleta-alto-cuadro;
+		}
+		&--naranja{
+			background-color: $naranja;
+			height: $paleta-alto-cuadro;
+		}
+		&--naranja-fuerte{
+			background-color: $naranja-fuerte;
+			height: $paleta-alto-cuadro;
+		}
+		&--rosa{
+			background-color: $rosa;
+			height: $paleta-alto-cuadro;
+		}
+		&--uva{
+			background-color: $uva;
+			height: $paleta-alto-cuadro;
+		}
+		&--gris{
+			background-color: $gris;
+			height: $paleta-alto-cuadro;
+		}
+		&--gris-claro{
+			background-color: $gris-claro;
+			height: $paleta-alto-cuadro;
+		}
+		&--amarillo{
+			background-color: $amarillo;
+			height: $paleta-alto-cuadro;
+		}
+		&--rojo-fuerte{
+			background-color: $rojo-fuerte;
+			height: $paleta-alto-cuadro;
+		}
+		&--mostaza{
+			background-color: $mostaza;
+				height: $paleta-alto-cuadro;
+		}
+		&--hueso{
+			background-color: $hueso;
+			height: $paleta-alto-cuadro;
+		}
+		&--menta{
+			background-color: $menta;
+			height: $paleta-alto-cuadro;
+		}
+		&--cielo{
+			background-color: $cielo;
+			height: $paleta-alto-cuadro;
+		}
+		&--gris-verde{
+			background-color:$gris-verde;
+			height: $paleta-alto-cuadro;
+		}
+		&--durazno-claro{
+			background-color: $durazno-claro;
+			height: $paleta-alto-cuadro;
+		}
+		&--durazno{
+			background-color: $durazno;
+			height: $paleta-alto-cuadro;
+		}
+		&--salmon{
+			background-color: $salmon;
+			height: $paleta-alto-cuadro;
+		}
+		&--vino{
+			background-color: $vino;
+			height: $paleta-alto-cuadro;
+		}
+		&--amarillo-limon{
+			background-color: $amarillo-limon;
+			height: $paleta-alto-cuadro;
+		}
+		&--azul-gris{
+			background-color: $azul-gris;
+			height: $paleta-alto-cuadro;
+		}
+		&--azul{
+			background-color: $azul;
+			height: $paleta-alto-cuadro;
+		}
+		&--rojo-claro{
+			background-color: $rojo-claro;
+			height: $paleta-alto-cuadro;
+		}
+		&--rojo{
+			background-color: $rojo;
+			height: $paleta-alto-cuadro;
+		}
+	}
+}
+/*FINALIZA luz*/
+/*mimi*/
 #Precios{
     background-color: $fondo-azul;
     padding-bottom: 80px;
@@ -112,5 +319,104 @@
             }
         }
        
+
+ /* ------ANN------------ */
+.client{
+    background-color: $fondo-azul;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-row-gap: 3vh;
+}
+
+.client__text{
+    grid-column: 2/3;
+    font-size: $tamano-parrafos;
+    text-align: justify;
+    margin-top: 3rem;
+
+}
+
+.client__text--header{
+    color: $blanco;
+    font-size: $tamano-titulo;
+    margin-bottom: 2rem;
+}
+
+.client__text--orange{
+    color: $acento-naranja;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.client__text--quote{
+    font-size: .5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.contact{
+    @extend .client;
+}
+
+.contact__texto{
+    grid-column: 2/3;
+    font-size: $tamano-parrafos;
+}
+
+.contact__texto--header{
+    font-size: $tamano-titulo;
+}
+
+.contact__text--quote{
+    @extend .client__text--quote;
+    
+}
+
+.quest{
+    @extend .client;
+}
+
+.quest__form{
+    @extend .contact__texto;
+    grid-row-gap: 3vh;
+    justify-items: center;
+    
+}
+
+.quest__form--input{
+    width: 100%;
+    margin-top: 5vh;
+    
+}
+
+.quest__form--text{
+    @extend .quest__form--input;
+}
+
+.quest__form--btn{
+    background-color: $gris-botones;
+    border: 0px;
+    padding: 1vh;
+    width: 10vw;
+    margin-left: 40%;
+    margin-top: 1rem;
+}
+
+.client__div{
+    width: 33%;
+    height: 2px;
+    background-color: white;
+    margin-left: 33%;
+    margin-bottom: 2rem;
+}
+
+.contact__div{
+    @extend .client__div;
+    margin-right: 33%;
+
 }
 
