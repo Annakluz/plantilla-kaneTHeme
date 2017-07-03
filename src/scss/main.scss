@@ -36,3 +36,32 @@
     padding: 12px;
     float:left;
 }
+
+
+// Para NAV
+nav {
+  background-color:  #27AD60;
+}
+
+.img-logo {
+  width: 150%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.menu {
+  text-align: right;
+
+  li {
+    @include list;
+
+    a {
+      @include list-style;
+    }
+  }
+}
+
+// Para HOME
+.home {
+background-image: url("../img/carousel-bg.jpg");
+}
