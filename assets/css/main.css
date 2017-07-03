@@ -94,6 +94,31 @@
   padding: 12px;
   float: left; }
 
+
+nav {
+  background-color: #27AD60; }
+
+.img-logo {
+  width: 150%;
+  margin-top: 5%;
+  margin-left: 5%; }
+
+.menu {
+  text-align: right; }
+  .menu li {
+    list-style: none;
+    display: inline-flex;
+    padding: .50rem;
+    margin-right: 1%; }
+    .menu li a {
+      text-decoration: none;
+      color: #FFF;
+      font-family: 0.8rem;
+      font-weight: 600; }
+
+.home {
+  background-image: url("../img/carousel-bg.jpg"); }
+
 /*   inicio estilos DIANA   */
 .acercaDeNosotros {
   background-color: #2C3E50;
