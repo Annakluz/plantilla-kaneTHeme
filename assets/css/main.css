@@ -34,6 +34,8 @@
 .col-12 {
   width: 100%; }
 
+
+
 .col-offset1 {
   margin-left: 8.33333%; }
 
@@ -70,11 +72,17 @@
 .col-offset12 {
   margin-left: 100%; }
 
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Product Sans', Arial, sans-serif;
+
+
+
+  font-family: sans-serif;
+
   color: #424242; }
 
 .container {
