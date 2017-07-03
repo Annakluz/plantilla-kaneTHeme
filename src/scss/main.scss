@@ -36,3 +36,33 @@
     padding: 12px;
     float:left;
 }
+
+/*   inicio estilos DIANA   */
+.acercaDeNosotros {
+	background-color: $fondo-azul;
+    padding: 4rem 0;
+    .acercaDeNosotros__titulo {
+        @include fuente($tamano-titulo,$blanco);
+        text-align: center;
+    }
+    .acercaDeNosotros__separador {
+        border: .3px solid $blanco;        
+    }
+    .acercaDeNosotros__texto {
+	@include fuente($tamano-parrafos,$blanco);
+    }
+    .acercaDeNosotros__barra {
+	    border: .7px solid $blanco;
+        background-color: $blanco;
+        height: 10px;
+        .acercaDeNosotros__barraProgreso-- {
+            background-color: $acento-naranja;
+            height: 100%;
+	    }
+        .primera {
+                width: 97%;
+            }
+    }
+}
+
+/*   final estilos DIANA   */

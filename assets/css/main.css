@@ -94,4 +94,29 @@
   padding: 12px;
   float: left; }
 
+/*   inicio estilos DIANA   */
+.acercaDeNosotros {
+  background-color: #2C3E50;
+  padding: 4rem 0; }
+  .acercaDeNosotros .acercaDeNosotros__titulo {
+    font-size: 2.5rem;
+    color: #FFF;
+    text-align: center; }
+  .acercaDeNosotros .acercaDeNosotros__separador {
+    border: 0.3px solid #FFF; }
+  .acercaDeNosotros .acercaDeNosotros__texto {
+    font-size: 0.8rem;
+    color: #FFF; }
+  .acercaDeNosotros .acercaDeNosotros__barra {
+    border: 0.7px solid #FFF;
+    background-color: #FFF;
+    height: 10px; }
+    .acercaDeNosotros .acercaDeNosotros__barra .acercaDeNosotros__barraProgreso-- {
+      background-color: #E67E22;
+      height: 100%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .primera {
+      width: 97%; }
+
+/*   final estilos DIANA   */
+
 /*# sourceMappingURL=main.css.map */
