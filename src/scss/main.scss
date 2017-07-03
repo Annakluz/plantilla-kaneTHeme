@@ -36,6 +36,70 @@
     padding: 12px;
     float:left;
 }
+
+
+/*   inicio estilos DIANA   */
+.acercaDeNosotros {
+	background-color: $fondo-azul;
+    padding: 7rem 0;
+    .acercaDeNosotros__titulo {
+        @include fuente($tamano-titulo,$blanco);
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .acercaDeNosotros__separador {
+        border: .3px solid $blanco;
+        margin-bottom: 3rem;
+    }
+    
+    div.col-5 {
+        padding: 0 2rem;
+    }
+    
+    .acercaDeNosotros__textos {
+	    margin-bottom: 3rem;
+    }
+    .acercaDeNosotros__texto {
+	    @include fuente($tamano-parrafos,$blanco);
+        margin-bottom: 1rem;
+    }
+    .acercaDeNosotros__barra {
+	    border: 1px solid $blanco;
+        background-color: $blanco;
+        height: 10px;
+        margin-bottom: .5rem;
+        .acercaDeNosotros__barraProgreso-- {
+            background-color: $acento-naranja;
+            height: 100%;
+	    }
+        .primera {
+            width: 97%;
+        }        
+        .segunda {
+            width: 93%;
+        }        
+        .tercera {
+            width: 55%;
+        }        
+        .cuarta {
+            width: 67%;
+        }        
+        .quinta {
+            width: 90%;
+        }
+    }
+    .acercaDeNosotros__subtitulo-barra {
+	    @include fuente(.6rem,$blanco);
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+}
+    .acercaDeNosotros__imagen {
+	width: 100%;
+}
+}
+
+/*   final estilos DIANA   */
+/*LUZ 1era seccion*/
 .paleta-color{
 	background-color: red;text-align: center;
 	&__titulo{
@@ -150,3 +214,5 @@
 
 	}
 }
+
+/*FINALIZA luz*/
