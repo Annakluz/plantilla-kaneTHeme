@@ -2,3 +2,17 @@
 	font-size: $tamano-fuente;
 	color:$color;
 }
+
+@mixin list() {
+  list-style: none;
+  display: inline-flex;
+  padding: .50rem;
+  margin-right: 1%;
+}
+
+@mixin list-style () {
+  text-decoration: none;
+  color: $blanco;
+  font-family: $tamano-parrafos;
+  font-weight: 600;
+}
