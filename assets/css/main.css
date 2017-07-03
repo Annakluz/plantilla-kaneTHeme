@@ -255,6 +255,65 @@ nav {
       height: 20vh; }
 
 /*FINALIZA luz*/
+/*mimi*/
+#Precios {
+  background-color: #2C3E50;
+  padding-bottom: 80px; }
+
+.precioRow {
+  font-size: 0; }
+  .precioRow #mejoresPrecios {
+    text-align: center;
+    font-size: 16px; }
+  .precioRow #lineaPrecios {
+    border: 1px solid white;
+    width: 15%;
+    position: relative;
+    left: 42%; }
+  .precioRow #tituloPrecios {
+    font-size: 2.5rem;
+    color: white;
+    padding: 30px;
+    margin-top: 20px; }
+  .precioRow #descripcionPrecios {
+    color: white;
+    padding: 30px;
+    margin-bottom: 80px; }
+
+.precioCol {
+  display: inline-grid; }
+  .precioCol .precioCol__tablaPrecios {
+    font-size: 16px;
+    text-align: center;
+    border: 1.5px solid #27AD60;
+    width: 100%; }
+  .precioCol .precioCol__tablaPrecios:hover {
+    border: 1.7px solid #E67E22;
+    margin-top: -40px; }
+  .precioCol tr, .precioCol th, .precioCol td {
+    color: white;
+    height: auto;
+    padding: 10px; }
+  .precioCol th {
+    font-size: 1.2rem;
+    color: #C1C1C1; }
+
+.precioCol .precioCol__table--subtituloVerde {
+  background-color: #27AD60;
+  height: 100px;
+  color: white;
+  font-size: 1.2rem; }
+.precioCol .precioCol__table--boton {
+  border: none;
+  background-color: #443E44;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  margin: 50px; }
+.precioCol .precioCol__table--celdaBlanca {
+  background-color: white; }
+  .precioCol .precioCol__table--celdaBlanca td {
+    color: #2C3E50; }
 /* ------ANN------------ */
 .client, .contact, .quest {
   background-color: #2C3E50;
@@ -318,7 +377,6 @@ nav {
 
 .contact__div {
   margin-right: 33%; }
-
 /* ---- GABY ----- */
 .queHacemos, .equipo {
   max-width: 100%;
