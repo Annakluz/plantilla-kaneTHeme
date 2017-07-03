@@ -76,7 +76,7 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  color: #424242; }
+  color: #FFF; }
 
 .container {
   width: 100%;
@@ -95,6 +95,350 @@
   padding: 12px;
   float: left; }
 
+nav {
+  background-color: #27AD60; }
+
+.img-logo {
+  width: 150%;
+  margin-top: 5%;
+  margin-left: 5%; }
+
+.menu {
+  text-align: right; }
+  .menu li {
+    list-style: none;
+    display: inline-flex;
+    padding: .50rem;
+    margin-right: 1%; }
+    .menu li a {
+      text-decoration: none;
+      color: #FFF;
+      font-family: 0.9rem;
+      font-weight: 600; }
+
+.home {
+  background-image: url("../img/carousel-bg.jpg"); }
+
+/*   inicio estilos ABOUT US - DIANA   */
+.acercaDeNosotros {
+  background-color: #2C3E50;
+  padding: 7rem 0; }
+  .acercaDeNosotros .acercaDeNosotros__titulo {
+    font-size: 3rem;
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 2rem; }
+  .acercaDeNosotros .acercaDeNosotros__separador {
+    border: 0.1px solid #FFF;
+    margin-bottom: 3rem; }
+  .acercaDeNosotros div.col-5 {
+    padding: 0 2rem; }
+    .acercaDeNosotros div.col-5:last-child {
+      padding-left: 4rem; }
+  .acercaDeNosotros .acercaDeNosotros__textos {
+    margin-bottom: 3rem; }
+  .acercaDeNosotros .acercaDeNosotros__texto {
+    font-size: 0.9rem;
+    color: #FFF;
+    margin-bottom: 1rem; }
+  .acercaDeNosotros .acercaDeNosotros__barra {
+    border: 1.5px solid #FFF;
+    background-color: #FFF;
+    height: 10px;
+    margin-bottom: .5rem; }
+    .acercaDeNosotros .acercaDeNosotros__barra .acercaDeNosotros__barraProgreso-- {
+      background-color: #E67E22;
+      height: 100%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .primera {
+      width: 97%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .segunda {
+      width: 93%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .tercera {
+      width: 55%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .cuarta {
+      width: 67%; }
+    .acercaDeNosotros .acercaDeNosotros__barra .quinta {
+      width: 90%; }
+  .acercaDeNosotros .acercaDeNosotros__subtitulo-barra {
+    font-size: 0.7rem;
+    color: #FFF;
+    text-transform: uppercase;
+    margin-bottom: 1rem; }
+  .acercaDeNosotros .acercaDeNosotros__imagen {
+    width: 100%; }
+
+/*   final estilos DIANA   */
+/*LUZ 1era seccion*/
+.paleta-color {
+  width: 100%;
+  background-color: #FFF;
+  text-align: center;
+  padding: 4rem 0 0 0; }
+  .paleta-color__titulo {
+    font-size: 3rem;
+    color: #000; }
+  .paleta-color__cuadro-color {
+    height: 22vh; }
+    .paleta-color__cuadro-color--celeste {
+      background-color: #69D2E7;
+      height: 20vh; }
+    .paleta-color__cuadro-color--azul-claro {
+      background-color: #A7DBDB;
+      height: 20vh; }
+    .paleta-color__cuadro-color--gris-calido {
+      background-color: #E0E4CC;
+      height: 20vh; }
+    .paleta-color__cuadro-color--naranja {
+      background-color: #F38630;
+      height: 20vh; }
+    .paleta-color__cuadro-color--naranja-fuerte {
+      background-color: #FA6900;
+      height: 20vh; }
+    .paleta-color__cuadro-color--rosa {
+      background-color: #E94C6F;
+      height: 20vh; }
+    .paleta-color__cuadro-color--uva {
+      background-color: #542733;
+      height: 20vh; }
+    .paleta-color__cuadro-color--gris {
+      background-color: #5A6A62;
+      height: 20vh; }
+    .paleta-color__cuadro-color--gris-claro {
+      background-color: #C6D5CD;
+      height: 20vh; }
+    .paleta-color__cuadro-color--amarillo {
+      background-color: #FDF200;
+      height: 20vh; }
+    .paleta-color__cuadro-color--rojo-fuerte {
+      background-color: #DB3340;
+      height: 20vh; }
+    .paleta-color__cuadro-color--mostaza {
+      background-color: #E8B71A;
+      height: 20vh; }
+    .paleta-color__cuadro-color--hueso {
+      background-color: #F7EAC8;
+      height: 20vh; }
+    .paleta-color__cuadro-color--menta {
+      background-color: #1FDA9A;
+      height: 20vh; }
+    .paleta-color__cuadro-color--cielo {
+      background-color: #28ABE3;
+      height: 20vh; }
+    .paleta-color__cuadro-color--gris-verde {
+      background-color: #588C73;
+      height: 20vh; }
+    .paleta-color__cuadro-color--durazno-claro {
+      background-color: #F2E394;
+      height: 20vh; }
+    .paleta-color__cuadro-color--durazno {
+      background-color: #F2AE72;
+      height: 20vh; }
+    .paleta-color__cuadro-color--salmon {
+      background-color: #D96459;
+      height: 20vh; }
+    .paleta-color__cuadro-color--vino {
+      background-color: #8C4646;
+      height: 20vh; }
+    .paleta-color__cuadro-color--amarillo-limon {
+      background-color: #D0C91F;
+      height: 20vh; }
+    .paleta-color__cuadro-color--azul-gris {
+      background-color: #85C4B9;
+      height: 20vh; }
+    .paleta-color__cuadro-color--azul {
+      background-color: #008BBA;
+      height: 20vh; }
+    .paleta-color__cuadro-color--rojo-claro {
+      background-color: #DF514C;
+      height: 20vh; }
+    .paleta-color__cuadro-color--rojo {
+      background-color: #DC403B;
+      height: 20vh; }
+
+/*FINALIZA luz*/
+/*mimi*/
+#Precios {
+  background-color: #2C3E50;
+  padding-bottom: 80px; }
+
+.precioRow {
+  font-size: 0; }
+  .precioRow #mejoresPrecios {
+    text-align: center;
+    font-size: 16px; }
+  .precioRow #lineaPrecios {
+    border: 1px solid white;
+    width: 15%;
+    position: relative;
+    left: 42%; }
+  .precioRow #tituloPrecios {
+    font-size: 3rem;
+    color: white;
+    padding: 30px;
+    margin-top: 20px; }
+  .precioRow #descripcionPrecios {
+    color: white;
+    padding: 30px;
+    margin-bottom: 80px; }
+
+.precioCol {
+  display: inline-grid; }
+  .precioCol .precioCol__tablaPrecios {
+    font-size: 16px;
+    text-align: center;
+    border: 1.5px solid #27AD60;
+    width: 100%; }
+  .precioCol .precioCol__tablaPrecios:hover {
+    border: 1.7px solid #E67E22;
+    margin-top: -40px; }
+  .precioCol tr, .precioCol th, .precioCol td {
+    color: white;
+    height: auto;
+    padding: 10px; }
+  .precioCol th {
+    font-size: 1.5rem;
+    color: #C1C1C1; }
+
+.precioCol .precioCol__table--subtituloVerde {
+  background-color: #27AD60;
+  height: 100px;
+  color: white;
+  font-size: 1.5rem; }
+.precioCol .precioCol__table--boton {
+  border: none;
+  background-color: #443E44;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  margin: 50px; }
+.precioCol .precioCol__table--celdaBlanca {
+  background-color: white; }
+  .precioCol .precioCol__table--celdaBlanca td {
+    color: #2C3E50; }
+
+/* ------ANN------------ */
+.client, .contact, .quest {
+  background-color: #2C3E50;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto;
+  justify-items: center;
+  grid-row-gap: 3vh; }
+
+.client__text {
+  grid-column: 2/3;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin-top: 3rem; }
+
+.client__text--header {
+  color: #FFF;
+  font-size: 3rem;
+  margin-bottom: 2rem; }
+
+.client__text--orange {
+  color: #E67E22;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem; }
+
+.client__text--quote, .contact__text--quote {
+  font-size: .5rem;
+  text-align: center;
+  margin-bottom: 2rem; }
+
+.contact__texto, .quest__form {
+  grid-column: 2/3;
+  font-size: 0.9rem; }
+
+.contact__texto--header {
+  font-size: 3rem; }
+
+.quest__form {
+  grid-row-gap: 3vh;
+  justify-items: center; }
+
+.quest__form--input, .quest__form--text {
+  width: 100%;
+  margin-top: 5vh; }
+
+.quest__form--btn {
+  background-color: #443E44;
+  border: 0px;
+  padding: 1vh;
+  width: 10vw;
+  margin-left: 40%;
+  margin-top: 1rem; }
+
+.client__div, .contact__div {
+  width: 33%;
+  height: 2px;
+  background-color: white;
+  margin-left: 33%;
+  margin-bottom: 2rem; }
+
+.contact__div {
+  margin-right: 33%; }
+
+/* ---- GABY ----- */
+.queHacemos, .equipo {
+  max-width: 100%;
+  background: #27AD60;
+  text-align: center;
+  padding: 5%; }
+  .queHacemos .queHacemos_titulo, .equipo .queHacemos_titulo, .equipo .equipo_titulo {
+    font-size: 3rem;
+    color: #FFF;
+    margin: 2%; }
+  .queHacemos .queHacemos_subtitulo, .equipo .queHacemos_subtitulo {
+    font-size: 2rem;
+    color: #FFF;
+    margin: 5%; }
+  .queHacemos .queHacemos_parrafo--blanco, .equipo .queHacemos_parrafo--blanco, .equipo .equipo_parrafo--blanco {
+    font-size: 0.9rem;
+    color: #FFF;
+    margin: 2%; }
+  .queHacemos .queHacemos_parrafo--gris, .equipo .queHacemos_parrafo--gris, .equipo .equipo_parrafo--gris {
+    font-size: 0.9rem;
+    color: #C1C1C1;
+    margin: 6%; }
+  .queHacemos .queHacemos_boton, .equipo .queHacemos_boton {
+    background: #2C3E50;
+    padding: 1%;
+    font-size: 1.5rem;
+    color: #FFF;
+    border: none;
+    margin: 2%; }
+  .queHacemos .queHacemos_imagen--fondo, .equipo .queHacemos_imagen--fondo {
+    background-color: #443E44;
+    background-image: url(../img/icon-bg.png);
+    background-position: center;
+    width: 150px;
+    padding: 5%;
+    text-align: center;
+    margin: auto; }
+  .queHacemos .queHacemos_separacion, .equipo .queHacemos_separacion, .equipo .equipo_separacion {
+    margin: auto;
+    width: 20%; }
+
+.equipo .equipo_parrafo--negro {
+  font-size: 0.9rem;
+  color: #000;
+  margin: 3%; }
+.equipo .equipo_separacion--dashed {
+  color: #C1C1C1;
+  border-style: dashed;
+  margin: auto; }
+.equipo .equipo_nombre {
+  font-size: 1.5rem;
+  color: #FFF;
+  margin: 4%; }
+.equipo .equipo_redesSociales {
+  color: #C1C1C1;
+  margin: 2%;
+  font-size: 1.5rem; }
+
+/* ---- TERMINA GABY ---- */
 /*Inicia sección PARI*/
 .redes {
   margin: 0;
@@ -132,7 +476,7 @@ footer {
     color: white;
     text-align: center;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     margin-bottom: 1rem; }
   footer i {
     color: white; }
@@ -159,10 +503,10 @@ footer {
     justify-content: space-between;
     align-items: baseline; }
     footer .footer__renglon p {
-      font-size: 0.8rem;
+      font-size: 0.9rem;
       color: #443E44; }
     footer .footer__renglon a {
-      font-size: 0.8rem; }
+      font-size: 0.9rem; }
 
 /*Termina sección PARI*/
 
