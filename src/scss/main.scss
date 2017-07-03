@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    color:#424242;
+    color:$blanco;
 }
 
 .container{
@@ -35,4 +35,105 @@
     min-height: 7px;
     padding: 12px;
     float:left;
+}
+
+
+
+ /* ------ANN------------ */
+.client{
+    background-color: $fondo-azul;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    grid-row-gap: 3vh;
+}
+
+.client__text{
+    grid-column: 2/3;
+    font-size: $tamano-parrafos;
+    text-align: justify;
+    margin-top: 3rem;
+
+}
+
+.client__text--header{
+    color: $blanco;
+    font-size: $tamano-titulo;
+    margin-bottom: 2rem;
+}
+
+.client__text--orange{
+    color: $acento-naranja;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.client__text--quote{
+    font-size: .5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+.contact{
+    @extend .client;
+}
+
+.contact__texto{
+    grid-column: 2/3;
+    font-size: $tamano-parrafos;
+}
+
+.contact__texto--header{
+    font-size: $tamano-titulo;
+}
+
+.contact__text--quote{
+    @extend .client__text--quote;
+    
+}
+
+.quest{
+    @extend .client;
+}
+
+.quest__form{
+    @extend .contact__texto;
+    grid-row-gap: 3vh;
+    justify-items: center;
+    
+}
+
+.quest__form--input{
+    width: 100%;
+    margin-top: 5vh;
+    
+}
+
+.quest__form--text{
+    @extend .quest__form--input;
+}
+
+.quest__form--btn{
+    background-color: $gris-botones;
+    border: 0px;
+    padding: 1vh;
+    width: 10vw;
+    margin-left: 40%;
+    margin-top: 1rem;
+}
+
+.client__div{
+    width: 33%;
+    height: 2px;
+    background-color: white;
+    margin-left: 33%;
+    margin-bottom: 2rem;
+}
+
+.contact__div{
+    @extend .client__div;
+    margin-right: 33%;
 }
