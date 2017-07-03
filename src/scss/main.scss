@@ -12,7 +12,7 @@
 
 .container{
     width: 100%;
-    max-width: 1200px;
+
     margin: 0px, auto;
 }
 
@@ -36,3 +36,65 @@
     padding: 12px;
     float:left;
 }
+
+#Precios{
+    background-color: $fondo-azul;
+}
+
+.precioRow{
+    font-size: 0;
+    #mejoresPrecios{
+        text-align: center;
+        font-size: 16px;
+    }
+    #lineaPrecios{
+        border: 1.2px solid white;
+        width: 15%;
+        position: relative;
+        left: 500px;
+    }
+    #tituloPrecios{
+        font-size: $tamano-titulo;
+        color: white;
+    }
+    #descripcionPrecios{
+        color: white;
+    }
+}
+
+.precioCol{
+    display: inline-grid;
+    .tablaPrecios{
+        font-size: 16px;
+        text-align: center;
+        border: 1.5px solid green;
+        width: 100%;
+    }
+    .tablaPrecios:hover{
+        border: 1.7px solid orange;
+        margin-top: -20px;
+    }
+    tr,th, td{
+        color: white;
+        height: auto;
+        padding: 10px;
+    }
+    th{
+        font-size: $tamano-subtitulo;
+        color: $gris-texto;
+    }
+    .subtituloVerde{
+        background-color: green;
+        height: 100px;
+    }
+    .signPrecios{
+        border: none;
+        background-color: $gris-botones;
+        padding: 10px;
+        color: white;
+        font-size: 18px;
+    }
+}
+
+
+
