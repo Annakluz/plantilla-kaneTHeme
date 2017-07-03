@@ -373,7 +373,7 @@ background-image: url("../img/carousel-bg.jpg");
 
 .contact__text--quote{
     @extend .client__text--quote;
-    
+
 }
 
 .quest{
@@ -384,13 +384,13 @@ background-image: url("../img/carousel-bg.jpg");
     @extend .contact__texto;
     grid-row-gap: 3vh;
     justify-items: center;
-    
+
 }
 
 .quest__form--input{
     width: 100%;
     margin-top: 5vh;
-    
+
 }
 
 .quest__form--text{
@@ -420,3 +420,80 @@ background-image: url("../img/carousel-bg.jpg");
 
 }
 
+/* ---- GABY ----- */
+.queHacemos{
+  max-width: 100%;
+  background: $fondo-verde;
+  text-align: center;
+  padding: 5%;
+    .queHacemos_titulo{
+      @include fuente($tamano-titulo,$blanco);
+      margin: 2%;
+    }
+    .queHacemos_subtitulo{
+      @include fuente($tamano-titulo-secuendario,$blanco);
+      margin: 5%;
+    }
+    .queHacemos_parrafo--blanco{
+      @include fuente($tamano-parrafos,$blanco);
+      margin: 2%;
+    }
+    .queHacemos_parrafo--gris{
+      @include fuente($tamano-parrafos,$gris-texto);
+      margin: 6%;
+    }
+    .queHacemos_boton{
+      background: $fondo-azul;
+      padding: 1%;
+      @include fuente($tamano-subtitulo,$blanco);
+      border: none;
+      margin: 2%;
+    }
+    .queHacemos_imagen--fondo{
+      background-color: $gris-botones;
+      background-image: url(../img/icon-bg.png);
+      background-position: center;
+      width: 150px;
+      padding: 5%;
+      text-align: center;
+      margin: auto;
+    }
+    .queHacemos_separacion{
+      margin: auto;
+      width: 20%;
+    }
+}
+.equipo{
+  @extend .queHacemos;
+  .equipo_titulo{
+    @extend .queHacemos_titulo;
+  }
+  .equipo_separacion{
+    @extend .queHacemos_separacion;
+  }
+  .equipo_parrafo--blanco{
+    @extend .queHacemos_parrafo--blanco;
+  }
+  .equipo_parrafo--gris{
+    @extend .queHacemos_parrafo--gris;
+  }
+  .equipo_parrafo--negro{
+    @include fuente($tamano-parrafos,$negro);
+    margin: 3%;
+  }
+  .equipo_separacion--dashed{
+    color: $gris-texto;
+    border-style: dashed;
+    margin: auto;
+  }
+  .equipo_nombre{
+    @include fuente($tamano-subtitulo,$blanco);
+    margin: 4%;
+  }
+  .equipo_redesSociales{
+    color: $gris-texto;
+    margin: 2%;
+    font-size: $tamano-subtitulo;
+  }
+}
+/* ---- TERMINA GABY ---- */
