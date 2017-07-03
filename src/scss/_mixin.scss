@@ -1,0 +1,4 @@
+@mixin fuente($tamano-fuente,$color){
+	font-size: $tamano-fuente;
+	color:$color;
+}
